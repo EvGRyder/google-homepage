@@ -1,0 +1,115 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 5vh 1fr 6vh 6vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+header > * {
+    padding: 10px 20px 10px 20px;
+}
+.side > a {
+    margin: 10px;
+}
+
+#country {
+    background-color: lightgray;
+    padding: 10px;
+    font-size: 13px;
+    color: rgb(75, 75, 75);
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: lightgray;
+    border-top: solid;
+    border-width: 1px;
+    border-color: grey;
+    color: rgb(75, 75, 75);
+    padding: 5px 1px 1px 1px;
+    font-size: 13px;
+}
+
+main {
+    display: grid;
+    justify-items: center;
+    align-content: flex-start;
+}
+
+#logo {
+    margin-top: 200px;
+    align-self: center;
+    align-self: end;
+}
+
+#searchbar {
+    justify-self: center;
+    align-self: center;
+    position: relative;
+    display: flex;
+    min-width: 68vh;
+    border-radius: 50px;
+    box-shadow: 1px 1px 1px 1px lightgrey;
+}
+
+#searchbar:hover {
+    box-shadow: 1px 1px 1px 1px grey;
+}
+#searchbar > img {
+    width: 30px;
+    border-radius: 100%;
+    padding-left: 4px;
+}
+
+#search {
+    width: 100%;
+    border: none;
+    height: 40px;
+    border-radius: 50px;
+    outline: 0;
+}
+
+#buttons {
+    display: flex;
+}
+
+button {
+    height: 35px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(236, 236, 236);
+    margin: 3px;
+}
+button:hover {
+    box-shadow: 1px 1px 1px 1px grey;
+    cursor: pointer;
+}
+
+#scenes {
+    display: flex;
+    height: 30px;
+    margin: 5px;
+}
+
+a {
+    font-size: 12px;
+    text-decoration: none;
+    cursor: pointer;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+main > * {
+    margin: 20px;
+}
+
