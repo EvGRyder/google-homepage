@@ -1,0 +1,50 @@
+body {
+    background-color: lightgreen;
+    font-family: arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/*********************/
+/****** ENTRY ********/
+/*********************/
+
+.result-entry {
+    background-color: white;
+    width: 600px;
+}
+
+.result-link {
+    margin-bottom: 15px;
+}
+
+.result-link:hover {
+    cursor: pointer;
+}
+
+.header {
+    font: #202124;
+    font-size: 14px;
+}
+
+.link {
+    color: #1a0dab;
+    font-size: 20px;
+    margin: 5px 0px 10px 0px;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.bottomtext {
+    color: #4d5156;
+    font-size: 14px;
+}
+
+/*********************/
+/*********************/
+/*********************/
